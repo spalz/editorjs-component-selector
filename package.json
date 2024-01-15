@@ -1,0 +1,39 @@
+{
+  "name": "editorjs-component-selector",
+  "version": "2.8.1",
+  "keywords": [
+    "editor.js",
+    "editorjs",
+    "editor",
+    "component"
+  ],
+  "description": "Component selector for Editor.js",
+  "license": "MIT",
+  "repository": "https://github.com/spalz/editorjs-component-selector",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/component.umd.js",
+  "module": "./dist/component.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/component.mjs",
+      "require": "./dist/component.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": {
+    "name": "CodeX",
+    "email": "team@codex.so"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "vite-plugin-css-injected-by-js": "^3.3.0"
+  },
+  "dependencies": {
+    "@codexteam/icons": "^0.0.5"
+  }
+}
